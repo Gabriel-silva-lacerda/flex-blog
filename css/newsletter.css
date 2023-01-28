@@ -1,0 +1,78 @@
+.newsletter {
+    background-color: #f7f7f7;
+}
+
+.container-newsletter {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.signature {
+    flex: 2;
+    padding-right: 50px;
+}
+
+.signature h2 {
+    font-size: 3rem;
+    color: #a4a4a4;
+}
+
+.signature p {
+    font-size: 1.25rem;
+    font-style: italic;
+    max-width: 230px;
+    color: #7c7c7c;
+    margin-bottom: 10px;
+}
+
+.email {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 1 265px;
+    border: 4px solid #2c70ff;
+}
+
+#email {
+    border: none;
+    padding: 20px 10px;
+    background-color: #f7f7f7;
+    flex: 1;
+    outline: 0;
+}
+
+input::placeholder {
+    font-size: 1.3rem;
+    color: #7c7c7c;
+    font-style: italic;
+}
+
+.button {
+    background: #2c70ff;
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 2.25rem;
+    padding: 12px 5px;
+    flex: 1;
+    cursor: pointer;
+}
+
+@media (max-width: 570px) {
+    .button {
+        font-size: 1.5rem;
+    }
+
+    .signature{
+        padding-left: 0;
+    }
+
+    .signature h2 {
+        font-size: 2.5rem;
+    }
+
+}

@@ -1,0 +1,56 @@
+.fourth-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+    gap: 20px;
+}
+
+.skills {
+    flex: 1 1 250px;
+}
+
+.skills-tittle {
+    font-size: 2.25rem;
+    color: #a4a4a4;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.one-color::after {
+    content: "";
+    width: 7px;
+    height: 30px;
+    background: #ae81ff;
+    position: absolute;
+    top: 6px;
+    left: 2px;
+}
+
+.two-color::after {
+    content: "";
+    width: 7px;
+    height: 30px;
+    background: #f9265e;
+    position: absolute;
+    top: 6px;
+    left: 2px;
+}
+
+.third-color::after {
+    content: "";
+    width: 7px;
+    height: 30px;
+    background: #66d9eb;
+    position: absolute;
+    top: 6px;
+    left: 2px;
+}
+
+.skills-descrition {
+    font-size: 1.24rem;
+    line-height: 1.4;
+    color: #7c7c7c;
+}

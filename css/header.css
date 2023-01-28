@@ -1,0 +1,62 @@
+.menu-itens {
+    background: #122ab2; 
+}
+
+.localization {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background: #2c70ff;
+}
+
+.location a, li a, h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.location {
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    font-size: 1.25rem;
+    padding: 10px 0px
+}
+
+li a:hover {
+    color: #122ab2;
+}
+
+nav h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 360px) {
+    nav ul {
+        flex-wrap: wrap;
+    }
+}

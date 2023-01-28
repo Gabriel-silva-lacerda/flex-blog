@@ -1,0 +1,100 @@
+.third-container {
+    background-color: #f7f7f7;
+}
+
+.catalog-container {
+    padding: 80px 50px 60px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.catalog-content {
+    flex: 1;
+    border: 4px solid white;
+    padding: 40px 20px;
+}
+
+.purchase {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.metals {
+    font-size: 3rem;
+    color: #a4a4a4;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.price {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    margin-bottom: 15px;
+}
+
+.dollar-sign {
+    font-size: 1.3rem;
+}
+
+.catalog-list li {
+    list-style: none;
+    color: #7c7c7c;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-style: italic;
+    position: relative;
+}
+
+.catalog-list li::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #2c70ff;
+    top: 8px;
+    right: 0;
+    position: absolute;
+}
+
+button {
+    border: 4px solid black;
+    padding: 15px 0px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+    width: 100%;
+}
+
+@media (max-width: 747px) {
+    .catalog-container {
+        padding-left:  20px;
+        padding-right:  20px;
+    }
+
+    .ouro {
+        order: -3;
+    }
+
+    .prata {
+        order: -2;
+    }
+
+    .cobre {
+        order: -3;
+    }
+}
+
+@media (max-width: 295px) {
+    button {
+        font-size: 2rem;
+    }
+}
+
